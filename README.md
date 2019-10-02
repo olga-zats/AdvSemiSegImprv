@@ -1,2 +1,2 @@
 # AdvSemiSegImprv
-Computer Vision Laboratory Work: Adversarial Semisupervised Semantic Segmentation
+Computer Vision Laboratory Work: Adversarial Semi-supervised Semantic Segmentation
