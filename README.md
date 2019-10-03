@@ -96,7 +96,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  bash exp4/smooth_gt.sh
  ```
  
- Alphas, that are used for smoothing the ground-truth maps, are controlled by the input argument **-alpha**. By default, training is carried out for 3 models, with alphas equal to 0.51, 0.7 and 0.9. To change the default training procedure, please edit the script mentioned above.
+ Alphas, that are used for smoothing the ground-truth maps, are controlled by the input argument **--alpha**. By default, training is carried out for 3 models, with alphas equal to 0.51, 0.7 and 0.9. To change the default training procedure, please edit the script mentioned above.
  Evaluation results and trained models are going to be saved to the directories `./exp4/smooth_gt` and `./snapshots/exp4/smooth_gt` respectively.
  
  
