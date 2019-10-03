@@ -83,9 +83,13 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  
  #### Experiment 4.1
  In the first variant, the experiment consisted in smoothing the ground-truth maps for the unlabeled data with predictions, made on this data by the segmentation network in the following way:
- $ \alpha \cdot GT + (1 - \alpha) \cdot PRED $
- $ \alpha \in (0.5, 1] $
- We tried out 3 $\alpha$s: 0.51, 0.7 and 0.9.
+ 
+ ```
+ $ alpha * GT + (1 - alpha) * PRED $
+ $ alpha in (0.5, 1] $
+ ```
+ 
+ We tried out 3 alphas: 0.51, 0.7 and 0.9.
  
  To run training and evaluation, run the following script:
  ```
