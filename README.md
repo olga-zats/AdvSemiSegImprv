@@ -25,8 +25,8 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   
   * Place VOC2012 dataset in `AdvSemiSeg/dataset/VOC2012`. For training one needs augmented labels [(Download)](http://vllab1.ucmerced.edu/~whung/adv-semi-seg/SegmentationClassAug.zip). The folder structure should be like:
   ```
-  AdvSemiSeg/dataset/VOC2012/JPEGImages
-  AdvSemiSeg/dataset/VOC2012/SegmentationClassAug
+  AdvSemiSegImprv/dataset/VOC2012/JPEGImages
+  AdvSemiSegImprv/dataset/VOC2012/SegmentationClassAug
   ```
   
   ## Training and Evaluation on VOC2012
