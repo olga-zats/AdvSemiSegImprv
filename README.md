@@ -43,7 +43,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   ```
   bash exp{num}.sh
   ```
-  Evaluation results and trained model are going to be saved to directories `exp{num}` and `snapshots/exp{num}` respectively. To change, set arguments **--save-dir** and **--snapshot-dir** in the script to the desired desination.
+  Evaluation results and trained model are going to be saved to directories `exp{num}` and `snapshots/exp{num}` respectively. To change, set arguments **--save-dir** and **--snapshot-dir** in the script to the desired desinations. Also, initially all models in this and further experiments are trained with one random seed equal to 0. To try out other seeds or change the initial one, change **--random-seed** input argument in the script responsible for training the model.
  
  
   ### Experiment 2
