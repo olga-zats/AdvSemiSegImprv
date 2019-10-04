@@ -61,7 +61,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   #### Experiment 3.1
   The first part of the third experiment consist in training the model, where discriminator recieves as input a label probability map, that has been previously average-pooled with a kernel of the predefined size. We tried out 2 kernel sizes: 107 and 321 (amounts to global average pooling).
   
-  To perform trainng and evaluation, run the following script:
+  To perform training and evaluation, run the following script:
   ``` 
   bash ave_pool.sh
   ```
@@ -75,7 +75,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   ``` 
   bash gl_pyramid.sh
   ```
- Evaluation results and trained model are going to be saved do the directories `gl_pyramid` and `/snapshots/gl_pyramid` respectively.
+ Evaluation results and trained model are going to be saved do the directories `gl_pyramid` and `snapshots/gl_pyramid` respectively.
  
  
  ### Experiment 4
@@ -118,7 +118,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
    ```
    bash two_discr.sh
    ```
-   Evaluation results and trained models are going to be saved to the directories `./exp4/two_discr` and `./snapshots/exp4/two_discr` respectively.
+   Evaluation results and trained models are going to be saved to the directories `two_discr` and `snapshots/two_discr` respectively.
    
    
    
