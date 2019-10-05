@@ -33,10 +33,10 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   ### Experiment 1
   The first experiment consists in training the original model with different combinations of segmentator's loss function terms. Overall, we tried out 5 different combinations:
   
- 1. Baseline (only cross-entropy loss for the labeled data)
- 2. Baseline + Adversarial loss for **unlabeled** data 
- 3. Baseline + Adversarial loss for both types of data
- 4. Baseline + Adversarial loss + Semi-supervised loss
+ 0. Baseline (only cross-entropy loss for the labeled data)
+ 1. Baseline + Adversarial loss for **unlabeled** data 
+ 2. Baseline + Adversarial loss for both types of data
+ 3. Baseline + Adversarial loss + Semi-supervised loss
  
  To perform training for the desired experiment and evaluate it on the test data, run the following script, where **num - the number in name of the script** represents the combination of loss terms you want to use for training (numbering as above):
   
