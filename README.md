@@ -85,8 +85,8 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  In the first variant, the experiment consisted in smoothing the ground-truth maps with predictions made by the segmentation network using corresonding images in the following way:
  
  ```
- $ alpha * GT + (1 - alpha) * PRED $
- $ alpha in (0.5, 1] $
+  alpha * GT + (1 - alpha) * PRED 
+  alpha in (0.5, 1] 
  ```
  
  We tried out 3 alphas: 0.51, 0.7 and 0.9.
