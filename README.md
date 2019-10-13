@@ -3,7 +3,7 @@ Computer Vision Laboratory Work: Adversarial Semi-supervised Semantic Segmentati
 This repository is the pytorch implementation of the 5 experiments aimed at improving the model, that was introduced in the following paper:
 
 [Adversarial Learning for Semi-supervised segmentation](https://arxiv.org/abs/1802.07934)
-Wei-Chih Hung, Yi-Hsuan Tsai,Yan-Ting Liou, Yen-Yu Lin, and Ming-Hsuan Yang 
+Wei-Chih Hung, Yi-Hsuan Tsai,Yan-Ting Liou, Yen-Yu Lin, and Ming-Hsuan Yang. 
 Proceedings of the British Machine Vision Conference (BMVC), 2018.
 
 Code is heavily borrowed from [here](https://github.com/hfslyc/AdvSemiSeg).
