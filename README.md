@@ -41,7 +41,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  To perform training for the desired experiment and evaluate it on the test data, run the following script, where **num - the number in name of the script** represents the combination of loss terms you want to use for training (numbering as above):
   
   ```
-  bash exp{num}.sh
+  bash scripts/exp{num}.sh
   ```
   Evaluation results and trained model are going to be saved to directories `exp{num}` and `snapshots/exp{num}` respectively. To change, set arguments **--save-dir** and **--snapshot-dir** in the script to the desired desinations. Also, initially all models in this and further experiments are trained with one random seed equal to 0. To try out other seeds or change the initial one, change **--random-seed** input argument in the script responsible for training the model.
  
@@ -51,7 +51,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   
   To perform training and evaluation, run the following script:
   ```
-  bash no_discr.sh
+  bash scripts/no_discr.sh
   ```
   Evaluation results and trained model are going to be saved to the directories `no_discr` and `snapshots/no_discr`
   respectively.
@@ -63,7 +63,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
   
   To perform training and evaluation, run the following script:
   ``` 
-  bash ave_pool.sh
+  bash scripts/ave_pool.sh
   ```
   Kernel sizes, used for average pooling, are controlled by the input argument **--kernel-size**. By default, training is carried out for 2 models, with kernel sizes 107 and 321. To change the default training procedure, please edit the script mentioned above. 
   Evaluation results and trained models are going to be saved to the directories `ave_pool` and `snapshots/ave_pool` respectively.
@@ -73,7 +73,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  
  To perform training and evaluation, run the following script
   ``` 
-  bash gl_pyramid.sh
+  bash scripts/gl_pyramid.sh
   ```
  Evaluation results and trained model are going to be saved do the directories `gl_pyramid` and `snapshots/gl_pyramid` respectively.
  
@@ -93,7 +93,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
  
  To perform training and evaluation, run the following script:
  ```
- bash smooth_gt.sh
+ bash scripts/smooth_gt.sh
  ```
  
  Alphas, that are used for smoothing the ground-truth maps, are controlled by the input argument **--interp-alpha**. By default, training is carried out for 3 models, with alphas equal to 0.51, 0.7 and 0.9. To change the default training procedure, please edit the script mentioned above.
@@ -116,7 +116,7 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
    
    To perform training and evaluation, run the following script:
    ```
-   bash two_discr.sh
+   bash scripts/two_discr.sh
    ```
    Evaluation results and trained models are going to be saved to the directories `two_discr` and `snapshots/two_discr` respectively.
    
@@ -127,9 +127,9 @@ Contact: Olga Zatsarynna (s6olzats@uni-bonn.de)
    
    To train the classifier and evaluate model's performance with it, run the following script:
    ``` 
-   bash classifier.sh
+   bash scripts/classifier.sh
    ```
-   **Warning!**
+   **Remark**
    
    To be able to evaluate performance of the model with the classifier, you need to have the original model trained in advance. To do that, you need to run the final (5-th) variant of the first experiment.
    Evaluation results and trained model are going to be saved to the directories `classifier` and `snapshots/classifier`
